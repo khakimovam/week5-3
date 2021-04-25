@@ -1,0 +1,65 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.button,
+.contactInfo,
+.menu,
+#number {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+p {
+    display: flex;
+    justify-content: space-between;
+}
+
+table {
+    width: 75%;
+    margin: auto;
+    border: 5px white;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.menu,
+.button,
+#number {
+    text-decoration: none;
+}
+
+.contactInfo {
+    width: 75%;
+    margin: auto;
+    font-size: 13px;
+}
+
+
+
+body {
+    background: linear-gradient(95deg, #161616, rgba(70, 68, 68, 0) 100%, gray), url(https://www.babiesandbites.com/wp-content/uploads/2020/05/allen-gong-BcrnluMuzf0-unsplash-scaled.jpg);
+    background-size: cover;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.button {
+    background-color: #99862A;
+    font-size: 16px;
+    margin: 30px;
+    padding: 15px 30px;
+}
